@@ -3,8 +3,8 @@ def soma(a=2, b=3):
         raise TypeError(f"O input 'a' e 'b' devem ser uma string, recebido {a}, {type(a)}, b tipo (b)")
     return a + b
 
-def sub():
-    pass
+def sub(a=5, b=2):
+    return a - b
 
 def mult():
     pass
