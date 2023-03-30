@@ -11,5 +11,6 @@ def mult(a, b):
         raise TypeError("O input 'a' e 'b' devem ser uma string, recebido {a}, tipo(a), b tipo (b)")
     return a * b
 
-def div():
+def div(a=10, b=2):
+    if b != 0: return a / b
     pass
