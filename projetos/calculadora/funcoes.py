@@ -6,8 +6,10 @@ def soma(a=2, b=3):
 def sub(a=5, b=2):
     return a - b
 
-def mult():
-    pass
+def mult(a, b):
+    if type(a) not in [int, float] or type(b) not in [int, float]:
+        raise TypeError("O input 'a' e 'b' devem ser uma string, recebido {a}, tipo(a), b tipo (b)")
+    return a * b
 
 def div():
     pass
