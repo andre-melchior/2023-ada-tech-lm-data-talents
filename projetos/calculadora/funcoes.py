@@ -1,6 +1,6 @@
 def soma(a=2, b=3):
     if type(a) not in [int, float] or type(b) not in [int, float]:
-        raise TypeError(f"O input 'a' e 'b' devem ser uma string, recebido {a}, {type(a)}, b tipo (b)")
+        raise TypeError(f"O input 'a' e 'b' devem ser string, recebido a: {a}, {type(a)}, b: {b}, {type(b)}")
     return a + b
 
 def sub(a=5, b=2):
