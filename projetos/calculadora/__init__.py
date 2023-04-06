@@ -11,5 +11,7 @@ def calcule():
         res = sub(a, b)
     if o == '/': 
         res = div(a, b)
+    if o == '*': 
+        res = mult(a, b)
     print(res)
     pass
